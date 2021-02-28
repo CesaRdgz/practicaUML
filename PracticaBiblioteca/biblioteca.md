@@ -28,14 +28,71 @@ public class multa {
     private String inicio;
     private String fin;
 }
+    public multa(String inicio) {
+        this.inicio = inicio;
+    }
+    public String getInicio() {
+        return inicio;
+    }
+    public String getFin() {
+        return fin;
+    }
+    public void setInicio(String inicio) {
+        this.inicio = inicio;
+    }
 
+    public void setFin(String fin) {
+        this.fin = fin;
+    }
+    
 public class socio {
     private int numero;
     private String nombre;
     private String direccion;
     private String telefono;
 }
+    public socio(int numero, String nombre, String direccion, String telefono) {
+        this.numero = numero;
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.telefono = telefono;
+    }
+    public int getNumero() {
+        return numero;
+    }
+   
+    public String getNombre() {
+        return nombre;
+    }
+   
+    public String getDireccion() {
+        return direccion;
+    }
+  
+    public String getTelefono() {
+        return telefono;
+    }
+    
 
+    public void setNumero(int numero) {
+        this.numero = numero;
+      
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+       
+    }
+
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
+      
+    }
 ```
 ###Socio(0..1) - Copia(0..3)
 #####UML
@@ -68,11 +125,63 @@ public class socio {
     private String direccion;
     private String telefono;
 }
+    public socio(int numero, String nombre, String direccion, String telefono) {
+        this.numero = numero;
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.telefono = telefono;
+    }
+    public int getNumero() {
+        return numero;
+    }
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public String getTelefono() {
+        return telefono;
+    }
+
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+
+    }
+
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
+
+    }
+    
 public class copia {
     int referencia;
     private Class estadoCopia;
 }
+    public copia(int referencia) {
+        this.referencia = referencia;
+    }
+    public int getReferencia() {
+        return referencia;
+    }
+    
+    public void setReferencia(int referencia) {
+        this.referencia = referencia;
+    }
 ```
 ###Prestamo - Socio
 #####UML
@@ -103,13 +212,76 @@ public class prestamo {
     private String inicio;
     private String fin;
 }
+    public prestamo(String inicio, String fin) {
+        this.inicio = inicio;
+        this.fin = fin;
+    }
+    public String getInicio() {
+        return inicio;
+    }
+    
+    public String getFin() {
+        return fin;
+    }
+  
+    public void setInicio(String inicio) {
+        this.inicio = inicio;
+        
+    }
 
+    public void setFin(String fin) {
+        this.fin = fin;
+        
+    }
+    
 public class socio {
     private int numero;
     private String nombre;
     private String direccion;
     private String telefono;
 }
+    public socio(int numero, String nombre, String direccion, String telefono) {
+        this.numero = numero;
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.telefono = telefono;
+    }
+    public int getNumero() {
+        return numero;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public String getTelefono() {
+        return telefono;
+    }
+
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+
+    }
+
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
+
+    }
 ```
 ###Prestamo - Copia
 #####UML
@@ -138,10 +310,42 @@ public class prestamo {
     private String inicio;
     private String fin;
 }
+    public prestamo(String inicio, String fin) {
+        this.inicio = inicio;
+        this.fin = fin;
+    }
+    public String getInicio() {
+        return inicio;
+    }
 
+    public String getFin() {
+        return fin;
+    }
+
+    public void setInicio(String inicio) {
+        this.inicio = inicio;
+
+    }
+
+    public void setFin(String fin) {
+        this.fin = fin;
+
+    }
 public class copia {
     private int referencia;
 }
+    public copia(int referencia) {
+        this.referencia = referencia;
+    }
+    
+    public int getReferencia() {
+        return referencia;
+    }
+    
+    public void setReferencia(int referencia) {
+        this.referencia = referencia;
+       
+    }
 ```
 ###Copia(0..1) - Libro
 #####UML
@@ -171,6 +375,18 @@ copia"1..*" -- libro
 public class copia {
     private int referencia;
 }
+    public copia(int referencia) {
+        this.referencia = referencia;
+    }
+    public int getReferencia() {
+        return referencia;
+    }
+    public copia(int referencia) {
+        this.referencia = referencia;
+    }
+    public void setReferencia(int referencia) {
+        this.referencia = referencia;
+    }
 
 public class libro {
     private String titulo;
@@ -178,6 +394,43 @@ public class libro {
     private String editorial;
     private String tipo;
 }
+   
+    public libro(String titulo) {
+        this.titulo = titulo;
+    }
+   
+    public String getTitulo() {
+        return titulo;
+    }
+    
+    public int getAño() {
+        return año;
+    }
+   
+    public String getEditorial() {
+        return editorial;
+    }
+   
+    public String getTipo() {
+        return tipo;
+    }
+   
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public void setAño(int año) {
+        this.año = año;
+    }
+
+    public void setEditorial(String editorial) {
+        this.editorial = editorial;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
 ```
 ###Libro(0..1) - Autor
 #####UML
@@ -210,11 +463,78 @@ public class libro {
     private String editorial;
     private String tipo;
 }
+    public libro(String titulo) {
+        this.titulo = titulo;
+    }
+  
+    public String getTitulo() {
+        return titulo;
+    }
+    
+    public int getAño() {
+        return año;
+    }
+    
+    public String getEditorial() {
+        return editorial;
+    }
+    
+    public String getTipo() {
+        return tipo;
+    }
+    
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
 
+    public void setAño(int año) {
+        this.año = año;
+    }
+
+    public void setEditorial(String editorial) {
+        this.editorial = editorial;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+    
 public class autor {
     private String nombre;
     private String fecha_nacimiento;
     private String nacionalidad;
 }
+    public autor(String nombre, String fecha_nacimiento, String nacionalidad) {
+        this.nombre = nombre;
+        this.fecha_nacimiento = fecha_nacimiento;
+        this.nacionalidad = nacionalidad;
+    }
+    
+    public String getNombre() {
+        return nombre;
+    }
+   
 
+    public String getFecha_nacimiento() {
+        return fecha_nacimiento;
+    }
+    
+    public String getNacionalidad() {
+        return nacionalidad;
+    }
+   
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+        
+    }
+
+    public void setFecha_nacimiento(String fecha_nacimiento) {
+        this.fecha_nacimiento = fecha_nacimiento;
+        
+    }
+
+    public void setNacionalidad(String nacionalidad) {
+        this.nacionalidad = nacionalidad;
+        
+    }
 ```

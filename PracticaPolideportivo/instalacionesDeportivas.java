@@ -34,4 +34,67 @@ public class instalacionesDeportivas {
     /**
      * Constructor de instalacionesDeportivas
      */
+    public Arrays<instalacion> getPiscinas() {
+        return piscinas;
+        /**
+         * getter de piscinas
+         * @return piscinas
+         */
+    }
+
+    public Arrays<instalacion> getFrontones() {
+        return frontones;
+        /**
+         * getter de frontones
+         * @return frontones
+         */
+    }
+
+    public Arrays<instalacion> getGimnasios() {
+        return gimnasios;
+        /**
+         * getter de gimnasios
+         * @return gimnasios
+         */
+    }
+
+    public Arrays<instalacion> getPistasDeTenis() {
+        return pistasDeTenis;
+        /**
+         * getter de pistasDeTenis
+         * @return pistasDeTenis
+         */
+    }
+
+    public void setPiscinas(Arrays<instalacion> piscinas) {
+        this.piscinas = piscinas;
+        /**
+         * setter piscinas
+         * @param piscinas
+         */
+    }
+
+    public void setFrontones(Arrays<instalacion> frontones) {
+        this.frontones = frontones;
+        /**
+         * setter frontones
+         * @param frontones
+         */
+    }
+
+    public void setGimnasios(Arrays<instalacion> gimnasios) {
+        this.gimnasios = gimnasios;
+        /**
+         * setter gimnasios
+         * @param gimnasios
+         */
+    }
+
+    public void setPistasDeTenis(Arrays<instalacion> pistasDeTenis) {
+        this.pistasDeTenis = pistasDeTenis;
+        /**
+         * setter pistasDeTenis
+         * @param pistasDeTenis
+         */
+    }
 }

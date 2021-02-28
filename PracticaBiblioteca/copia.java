@@ -20,4 +20,18 @@ public class copia {
     /**
      * Constructor de copia
      */
+    public int getReferencia() {
+        return referencia;
+    }
+    /**
+     * getter de referencia
+     * @return referencia
+     */
+    public void setReferencia(int referencia) {
+        this.referencia = referencia;
+        /**
+         * setter referencia
+         * @param referencia
+         */
+    }
 }

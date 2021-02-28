@@ -46,6 +46,101 @@ public class socios {
     /**
      * Constructor de socios
      */
+    public String getNombre() {
+        return nombre;
+        /**
+         * getter de nombre
+         * @return nombre
+         */
+    }
+
+    public String getDireccion() {
+        return direccion;
+        /**
+         * getter de direccion
+         * @return direccion
+         */
+    }
+
+    public String getCiudad() {
+        return ciudad;
+        /**
+         * getter de ciudad
+         * @return ciudad
+         */
+    }
+
+    public String getProvincia() {
+        return provincia;
+        /**
+         * getter de provincia
+         * @return provincia
+         */
+    }
+
+    public String getTelefono() {
+        return telefono;
+        /**
+         * getter de telefono
+         * @return telefono
+         */
+    }
+
+    public int getCuota() {
+        return cuota;
+        /**
+         * getter de cuota
+         * @return cuota
+         */
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+        /**
+         * setter nombre
+         * @param nombre
+         */
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+        /**
+         * setter direccion
+         * @param direccion
+         */
+    }
+
+    public void setCiudad(String ciudad) {
+        this.ciudad = ciudad;
+        /**
+         * setter ciudad
+         * @param ciudad
+         */
+    }
+
+    public void setProvincia(String provincia) {
+        this.provincia = provincia;
+        /**
+         * setter provincia
+         * @param provincia
+         */
+    }
+
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
+        /**
+         * setter telefono
+         * @param telefono
+         */
+    }
+
+    public void setCuota(int cuota) {
+        this.cuota = cuota;
+        /**
+         * setter cuota
+         * @param cuota
+         */
+    }
 }
 
 

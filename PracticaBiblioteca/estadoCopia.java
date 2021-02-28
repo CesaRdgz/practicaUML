@@ -32,4 +32,63 @@ public class estadoCopia {
     /**
      * Constructor de estadoCopia
      */
+    public boolean isPrestado() {
+        return prestado;
+    }
+    /**
+     * getter de prestado
+     * @return prestado
+     */
+    public boolean isRetraso() {
+        return retraso;
+    }
+    /**
+     * getter de retraso
+     * @return retraso
+     */
+    public boolean isBiblioteca() {
+        return biblioteca;
+    }
+    /**
+     * getter de biblioteca
+     * @return biblioteca
+     */
+    public boolean isRepaaracion() {
+        return repaaracion;
+    }
+    /**
+     * getter de repaaracion
+     * @return repaaracion
+     */
+    public void setPrestado(boolean prestado) {
+        this.prestado = prestado;
+        /**
+         * setter direccion
+         * @param direccion
+         */
+    }
+
+    public void setRetraso(boolean retraso) {
+        this.retraso = retraso;
+        /**
+         * setter direccion
+         * @param direccion
+         */
+    }
+
+    public void setBiblioteca(boolean biblioteca) {
+        this.biblioteca = biblioteca;
+        /**
+         * setter biblioteca
+         * @param biblioteca
+         */
+    }
+
+    public void setRepaaracion(boolean repaaracion) {
+        this.repaaracion = repaaracion;
+        /**
+         * setter repaaracion
+         * @param repaaracion
+         */
+    }
 }

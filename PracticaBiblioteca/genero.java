@@ -31,4 +31,63 @@ public class genero {
     /**
      * Constructor de genero
      */
+    public boolean isNovela() {
+        return novela;
+    }
+    /**
+     * getter de novela
+     * @return novela
+     */
+    public boolean isTeatro() {
+        return teatro;
+    }
+    /**
+     * getter de teatro
+     * @return teatro
+     */
+    public boolean isPoesia() {
+        return poesia;
+    }
+    /**
+     * getter de poesia
+     * @return poesia
+     */
+    public boolean isEnsayo() {
+        return ensayo;
+    }
+    /**
+     * getter de ensayo
+     * @return ensayo
+     */
+    public void setNovela(boolean novela) {
+        this.novela = novela;
+        /**
+         * setter novela
+         * @param novela
+         */
+    }
+
+    public void setTeatro(boolean teatro) {
+        this.teatro = teatro;
+        /**
+         * setter teatro
+         * @param teatro
+         */
+    }
+
+    public void setPoesia(boolean poesia) {
+        this.poesia = poesia;
+        /**
+         * setter poesia
+         * @param poesia
+         */
+    }
+
+    public void setEnsayo(boolean ensayo) {
+        this.ensayo = ensayo;
+        /**
+         * setter ensayo
+         * @param ensayo
+         */
+    }
 }

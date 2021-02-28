@@ -20,4 +20,35 @@ public class fecha {
     /**
      * Constructor de fecha
      */
+    public String getHoraDeEntrada() {
+        return horaDeEntrada;
+        /**
+         * getter de horaDeEntrada
+         * @return horaDeEntrada
+         */
+    }
+
+    public String getHoraDeSalida() {
+        return horaDeSalida;
+        /**
+         * getter de horaDeSalida
+         * @return horaDeSalida
+         */
+    }
+
+    public void setHoraDeEntrada(String horaDeEntrada) {
+        this.horaDeEntrada = horaDeEntrada;
+        /**
+         * setter horaDeEntrada
+         * @param horaDeEntrada
+         */
+    }
+
+    public void setHoraDeSalida(String horaDeSalida) {
+        this.horaDeSalida = horaDeSalida;
+        /**
+         * setter horaDeSalida
+         * @param horaDeSalida
+         */
+    }
 }

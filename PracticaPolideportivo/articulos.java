@@ -26,4 +26,51 @@ public class articulos {
     /**
      * Constructor de articulos
      */
+    public int getBalones() {
+        return balones;
+        /**
+         * getter de balones
+         * @return balones
+         */
+    }
+
+    public int getRedes() {
+        return redes;
+        /**
+         * getter de redes
+         * @return redes
+         */
+    }
+
+    public int getRaquetas() {
+        return raquetas;
+        /**
+         * getter de raquetas
+         * @return raquetas
+         */
+    }
+
+    public void setBalones(int balones) {
+        this.balones = balones;
+        /**
+         * setter balones
+         * @param balones
+         */
+    }
+
+    public void setRedes(int redes) {
+        this.redes = redes;
+        /**
+         * setter redes
+         * @param redes
+         */
+    }
+
+    public void setRaquetas(int raquetas) {
+        this.raquetas = raquetas;
+        /**
+         * setter raquetas
+         * @param raquetas
+         */
+    }
 }

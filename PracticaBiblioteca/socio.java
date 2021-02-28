@@ -31,4 +31,64 @@ public class socio {
     /**
      * Constructor de socio
      */
+    public int getNumero() {
+        return numero;
+    }
+    /**
+     * getter de numero
+     * @return numero
+     */
+    public String getNombre() {
+        return nombre;
+    }
+    /**
+     * getter de nombre
+     * @return nombre
+     */
+    public String getDireccion() {
+        return direccion;
+    }
+    /**
+     * getter de direccion
+     * @return direccion
+     */
+    public String getTelefono() {
+        return telefono;
+    }
+    /**
+     * getter de telefono
+     * @return telefono
+     */
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    /**
+     * setter numero
+     * @param numero
+     */
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+        /**
+         * setter nombre
+         * @param nombre
+         */
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+        /**
+         * setter direccion
+         * @param direccion
+         */
+    }
+
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
+        /**
+         * setter telefono
+         * @param telefono
+         */
+    }
 }

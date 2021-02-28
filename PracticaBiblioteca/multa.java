@@ -20,4 +20,33 @@ public class multa {
     /**
      * Constructor de multa
      */
+    public String getInicio() {
+        return inicio;
+    }
+    /**
+     * getter de inicio
+     * @return inicio
+     */
+    public String getFin() {
+        return fin;
+    }
+    /**
+     * getter de fin
+     * @return fin
+     */
+    public void setInicio(String inicio) {
+        this.inicio = inicio;
+        /**
+         * setter inicio
+         * @param inicio
+         */
+    }
+
+    public void setFin(String fin) {
+        this.fin = fin;
+        /**
+         * setter fin
+         * @param fin
+         */
+    }
 }

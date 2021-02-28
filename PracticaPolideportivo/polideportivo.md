@@ -106,6 +106,13 @@ public class instalacionesDeportivas {
     private Arrays<instalacion> gimnasios;
     private Arrays<instalacion> pistasDeTenis;
 }
+    public instalacionesDeportivas(Arrays<instalacion> piscinas, Arrays<instalacion> frontones, Arrays<instalacion> gimnasios, Arrays<instalacion> pistasDeTenis) {
+        this.piscinas = piscinas;
+        this.frontones = frontones;
+        this.gimnasios = gimnasios;
+        this.pistasDeTenis = pistasDeTenis;
+    }
+    
     public Arrays<instalacion> getPiscinas() {
         return piscinas;
     }
@@ -166,7 +173,13 @@ public class instalacionesDeportivas {
     private Arrays<instalacion> gimnasios;
     private Arrays<instalacion> pistasDeTenis;
 }
-
+    public instalacionesDeportivas(Arrays<instalacion> piscinas, Arrays<instalacion> frontones, Arrays<instalacion> gimnasios, Arrays<instalacion> pistasDeTenis) {
+        this.piscinas = piscinas;
+        this.frontones = frontones;
+        this.gimnasios = gimnasios;
+        this.pistasDeTenis = pistasDeTenis;
+    }
+    
     public Arrays<instalacion> getPiscinas() {
         return piscinas;
     }
@@ -204,6 +217,11 @@ public class articulos {
     private int redes;
     private int raquetas;
 }
+    public articulos(int balones, int redes, int raquetas) {
+        this.balones = balones;
+        this.redes = redes;
+        this.raquetas = raquetas;
+    }
     public int getBalones() {
         return balones;
     }
@@ -252,6 +270,10 @@ public class fecha {
     private String horaDeEntrada;
     private String horaDeSalida;
 }
+    public fecha(String horaDeEntrada) {
+        this.horaDeEntrada = horaDeEntrada;
+    }
+    
     public String getHoraDeEntrada() {
         return horaDeEntrada;
     }

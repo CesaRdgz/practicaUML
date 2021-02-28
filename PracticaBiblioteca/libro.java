@@ -18,8 +18,14 @@ public class libro {
      * En este String se almacenara el nombre de la editotrial
      */
     private String tipo;
+
     /**
      * En este String se almacenara el tipo del libro
      */
-
+    public libro(String titulo) {
+        this.titulo = titulo;
+    }
+    /**
+     * Constructor de libro
+     */
 }

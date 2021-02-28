@@ -23,5 +23,13 @@ public class estadoCopia {
     /**
      *booleano que si = True es que se encuentra en el estado reparacion si = False es que no lo esta.
      */
-
+    public estadoCopia(boolean prestado, boolean retraso, boolean biblioteca, boolean repaaracion) {
+        this.prestado = prestado;
+        this.retraso = retraso;
+        this.biblioteca = biblioteca;
+        this.repaaracion = repaaracion;
+    }
+    /**
+     * Constructor de estadoCopia
+     */
 }

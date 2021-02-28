@@ -22,4 +22,13 @@ public class socio {
     /**
      *En este String se almacenara el telefono, es un string para poder poner prefijo (+34 666 666 666)
      */
+    public socio(int numero, String nombre, String direccion, String telefono) {
+        this.numero = numero;
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.telefono = telefono;
+    }
+    /**
+     * Constructor de socio
+     */
 }

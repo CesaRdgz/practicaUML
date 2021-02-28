@@ -14,4 +14,10 @@ public class multa {
     /**
      * El String sirve para definir la fecha del final de la multa en formato dd/mm/yy
      */
+    public multa(String inicio) {
+        this.inicio = inicio;
+    }
+    /**
+     * Constructor de multa
+     */
 }

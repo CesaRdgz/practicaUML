@@ -22,4 +22,13 @@ public class genero {
     /**
      * booleano que si = True es que pertenece al genero ensayo si = False es que no lo esta.
      */
+    public genero(boolean novela, boolean teatro, boolean poesia, boolean ensayo) {
+        this.novela = novela;
+        this.teatro = teatro;
+        this.poesia = poesia;
+        this.ensayo = ensayo;
+    }
+    /**
+     * Constructor de genero
+     */
 }

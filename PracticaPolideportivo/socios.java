@@ -35,6 +35,17 @@ public class socios {
     /**
      * @param reservar servira para dar de alta al socio en la pista, con el material necesitado y con la fecha asignada.
      */
+    public socios(String nombre, String direccion, String ciudad, String provincia, String telefono, int cuota) {
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.ciudad = ciudad;
+        this.provincia = provincia;
+        this.telefono = telefono;
+        this.cuota = cuota;
+    }
+    /**
+     * Constructor de socios
+     */
 }
 
 

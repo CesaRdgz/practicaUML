@@ -16,8 +16,19 @@ public class autor {
      * En el String fecha_nacimiento se definira la fecha de nacimiento del autor. El String y no int para poder poner dd/mm/yy
      */
     private String nacionalidad;
+
+
     /**
      * En el String nacionalidad se definira la nacionalidad del autor del libro
      */
-
+    public autor(String nombre, String fecha_nacimiento, String nacionalidad) {
+        this.nombre = nombre;
+        this.fecha_nacimiento = fecha_nacimiento;
+        this.nacionalidad = nacionalidad;
+    }
+    /**
+     * Constructor de autor
+     */
 }
+
+

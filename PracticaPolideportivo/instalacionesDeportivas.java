@@ -25,4 +25,13 @@ public class instalacionesDeportivas {
     /**
      * En este array list se guardara las pistas de tenis
      */
+    public instalacionesDeportivas(Arrays<instalacion> piscinas, Arrays<instalacion> frontones, Arrays<instalacion> gimnasios, Arrays<instalacion> pistasDeTenis) {
+        this.piscinas = piscinas;
+        this.frontones = frontones;
+        this.gimnasios = gimnasios;
+        this.pistasDeTenis = pistasDeTenis;
+    }
+    /**
+     * Constructor de instalacionesDeportivas
+     */
 }

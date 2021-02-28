@@ -14,4 +14,10 @@ public class fecha {
     /**
      * En este String se almacena la hora de salida
      */
+    public fecha(String horaDeEntrada) {
+        this.horaDeEntrada = horaDeEntrada;
+    }
+    /**
+     * Constructor de fecha
+     */
 }

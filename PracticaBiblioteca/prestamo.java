@@ -14,4 +14,11 @@ public class prestamo {
     /**
      * El String sirve para definir la fecha del final del prestamo en formato dd/mm/yy
      */
+    public prestamo(String inicio, String fin) {
+        this.inicio = inicio;
+        this.fin = fin;
+    }
+    /**
+     * Constructor de prestamo
+     */
 }

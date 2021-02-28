@@ -18,4 +18,12 @@ public class articulos {
     /**
      * En este int se almacenara el numero de raquetas de las que se dispongan
      */
+    public articulos(int balones, int redes, int raquetas) {
+        this.balones = balones;
+        this.redes = redes;
+        this.raquetas = raquetas;
+    }
+    /**
+     * Constructor de articulos
+     */
 }

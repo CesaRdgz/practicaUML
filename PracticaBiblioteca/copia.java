@@ -14,4 +14,10 @@ public class copia {
     /**
      * Se hace referencia a la tabla EstadoCopia y se crea la vinculacion entre clases
      */
+    public copia(int referencia) {
+        this.referencia = referencia;
+    }
+    /**
+     * Constructor de copia
+     */
 }

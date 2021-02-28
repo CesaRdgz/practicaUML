@@ -6,19 +6,19 @@
 package PracticaBiblioteca;
 
 public class socio {
-    int numero;
+    private int numero;
     /**
      * En este int se almacenara el numero de socio
      */
-    String nombre;
+    private String nombre;
     /**
      *En este String se almacenara el nombre
      */
-    String direccion;
+    private String direccion;
     /**
      *En este String se almacenara la direccion
      */
-    String telefono;
+    private String telefono;
     /**
      *En este String se almacenara el telefono, es un string para poder poner prefijo (+34 666 666 666)
      */

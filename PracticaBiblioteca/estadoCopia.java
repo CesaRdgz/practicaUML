@@ -7,19 +7,19 @@
 package PracticaBiblioteca;
 
 public class estadoCopia {
-    boolean prestado;
+    private boolean prestado;
     /**
      * booleano que si = True es que se encuentra en el estado prestado si = False es que no lo esta.
      */
-    boolean retraso;
+    private boolean retraso;
     /**
      *booleano que si = True es que se encuentra en el estado retrasado si = False es que no lo esta.
      */
-    boolean biblioteca;
+    private boolean biblioteca;
     /**
      *booleano que si = True es que se encuentra en el estado biblioteca si = False es que no lo esta.
      */
-    boolean repaaracion;
+    private boolean repaaracion;
     /**
      *booleano que si = True es que se encuentra en el estado reparacion si = False es que no lo esta.
      */

@@ -6,11 +6,11 @@
 package PracticaBiblioteca;
 
 public class multa {
-    String inicio;
+    private String inicio;
     /**
      * El String sirve para definir la fecha del inicio de la multa en formato dd/mm/yy
      */
-    String fin;
+    private String fin;
     /**
      * El String sirve para definir la fecha del final de la multa en formato dd/mm/yy
      */

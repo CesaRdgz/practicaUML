@@ -6,19 +6,19 @@ package PracticaBiblioteca;
  * @version 1.0.0
  */
 public class genero {
-    boolean novela;
+    private boolean novela;
     /**
      * booleano que si = True es que pertenece al genero novela si = False es que no lo esta.
      */
-    boolean teatro;
+    private boolean teatro;
     /**
      * booleano que si = True es que pertenece al genero teatro si = False es que no lo esta.
      */
-    boolean poesia;
+    private boolean poesia;
     /**
      * booleano que si = True es que pertenece al genero poesia si = False es que no lo esta.
      */
-    boolean ensayo;
+    private boolean ensayo;
     /**
      * booleano que si = True es que pertenece al genero ensayo si = False es que no lo esta.
      */

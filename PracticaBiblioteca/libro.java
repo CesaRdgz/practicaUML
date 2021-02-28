@@ -5,19 +5,19 @@ package PracticaBiblioteca;
  * @version 1.0.0
  */
 public class libro {
-    String titulo;
+    private String titulo;
     /**
      * En este String se almacenara el titulo del libro
      */
-    int año;
+    private int año;
     /**
      * En esta int se almacenara el año de publicacion de el libro
      */
-    String editorial;
+    private String editorial;
     /**
      * En este String se almacenara el nombre de la editotrial
      */
-    String tipo;
+    private String tipo;
     /**
      * En este String se almacenara el tipo del libro
      */

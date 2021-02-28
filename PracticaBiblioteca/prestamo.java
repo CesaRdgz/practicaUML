@@ -6,11 +6,11 @@
 package PracticaBiblioteca;
 
 public class prestamo {
-    String inicio;
+    private String inicio;
     /**
      * El String sirve para definir la fecha del inicio del prestamo en formato dd/mm/yy
      */
-    String fin;
+    private String fin;
     /**
      * El String sirve para definir la fecha del final del prestamo en formato dd/mm/yy
      */

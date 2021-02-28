@@ -6,11 +6,11 @@ package PracticaBiblioteca;
  * @version 1.0.0
  */
 public class copia {
-    int referencia;
+    private int referencia;
     /**
      * Aqui se registrara el numero de referencia de la copia
      */
-    estadoCopia;
+    private estadoCopia;
     /**
      * Se hace referencia a la tabla EstadoCopia y se crea la vinculacion entre clases
      */

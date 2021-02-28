@@ -215,7 +215,6 @@ public class autor {
     private String nombre;
     private String fecha_nacimiento;
     private String nacionalidad;
-
 }
 
 ```

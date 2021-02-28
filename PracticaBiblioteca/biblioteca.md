@@ -25,15 +25,15 @@ multa"0..1"  -- socio
 ```java
 
 public class multa {
-    String inicio;
-    String fin;
+    private String inicio;
+    private String fin;
 }
 
 public class socio {
-    int numero;
-    String nombre;
-    String direccion;
-    String telefono;
+    private int numero;
+    private String nombre;
+    private String direccion;
+    private String telefono;
 }
 
 ```
@@ -63,14 +63,15 @@ socio"0..1" -- "0..3"copia
 ```java
 
 public class socio {
-    int numero;
-    String nombre;
-    String direccion;
-    String telefono;
+    private int numero;
+    private String nombre;
+    private String direccion;
+    private String telefono;
 }
 
 public class copia {
     int referencia;
+    private Class estadoCopia;
 }
 ```
 ###Prestamo - Socio
@@ -99,15 +100,15 @@ class socio {
 ```java
 
 public class prestamo {
-    String inicio;
-    String fin;
+    private String inicio;
+    private String fin;
 }
 
 public class socio {
-    int numero;
-    String nombre;
-    String direccion;
-    String telefono;
+    private int numero;
+    private String nombre;
+    private String direccion;
+    private String telefono;
 }
 ```
 ###Prestamo - Copia
@@ -134,12 +135,12 @@ class copia {
 ```java
 
 public class prestamo {
-    String inicio;
-    String fin;
+    private String inicio;
+    private String fin;
 }
 
 public class copia {
-    int referencia;
+    private int referencia;
 }
 ```
 ###Copia(0..1) - Libro
@@ -168,14 +169,14 @@ copia"1..*" -- libro
 ```java
 
 public class copia {
-    int referencia;
+    private int referencia;
 }
 
 public class libro {
-    String titulo;
-    int año;
-    String editorial;
-    String tipo;
+    private String titulo;
+    private int año;
+    private String editorial;
+    private String tipo;
 }
 ```
 ###Libro(0..1) - Autor
@@ -204,16 +205,16 @@ libro"1..*" -- autor
 ```java
 
 public class libro {
-    String titulo;
-    int año;
-    String editorial;
-    String tipo;
+    private String titulo;
+    private int año;
+    private String editorial;
+    private String tipo;
 }
 
 public class autor {
-    String nombre;
-    String fecha_nacimiento;
-    String nacionalidad;
+    private String nombre;
+    private String fecha_nacimiento;
+    private String nacionalidad;
 
 }
 
